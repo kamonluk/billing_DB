@@ -1,0 +1,304 @@
+Log Time: 04-11-2017 06:33:43am
+Error: Class 'BillPayment_getBill' not found in C:\xampp\htdocs\pui_ka\src\controller.php:46
+Stack trace:
+#0 {main}
+
+Log Time: 04-11-2017 06:34:29am
+TypeError: Argument 1 passed to Operation\BillPayment::getBill() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 49 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\billpayment.php:60
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(49): Operation\BillPayment->getBill(NULL, 'ELECTRIC_BILLIN...')
+#1 {main}
+
+Log Time: 04-11-2017 06:40:55am
+Error: Class 'Operation\ChargeStub' not found in C:\xampp\htdocs\pui_ka\src\controller.php:50
+Stack trace:
+#0 {main}
+
+Log Time: 04-11-2017 06:45:27am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'PHONE_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:45:28am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'PHONE_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:45:30am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'PHONE_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:45:31am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'PHONE_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:47:12am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'WATER_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:47:20am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'ELECTRIC_BILLIN...')
+#1 {main}
+
+Log Time: 04-11-2017 06:47:41am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'PHONE_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 06:47:44am
+TypeError: Argument 1 passed to Operation\ChargeStub::__construct() must be of the type string, null given, called in C:\xampp\htdocs\pui_ka\src\controller.php on line 48 and defined in C:\xampp\htdocs\pui_ka\src\billpayment\ChargeStub.php:8
+Stack trace:
+#0 C:\xampp\htdocs\pui_ka\src\controller.php(48): Operation\ChargeStub->__construct(NULL, 'WATER_BILLING')
+#1 {main}
+
+Log Time: 04-11-2017 10:56:19am
+Error: Class 'Operation\DBConnection' not found in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:10
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge('0123444667', 'ELECTRIC_BILLIN...')
+#1 {main}
+
+Log Time: 04-11-2017 11:00:23am
+Error: Class 'Operation\DBConnection' not found in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:11
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge('0123444667', 'ELECTRIC_BILLIN...')
+#1 {main}
+
+Log Time: 04-11-2017 11:01:33am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:8
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:07:03am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:16
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:09am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:11am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:12am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:13am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:14am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:14am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:14am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:14am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:15am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:15am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:15am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:16am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:16am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:16am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:42am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:10:43am
+ArgumentCountError: Too few arguments to function Operation\Charge::getCharge(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 64 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:18
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:36am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:37am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:38am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:44am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:50am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:17:58am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:19:04am
+ArgumentCountError: Too few arguments to function Operation\Charge::__construct(), 0 passed in C:\xampp\htdocs\billing_DB\src\controller.php on line 63 and exactly 2 expected in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:12
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(63): Operation\Charge->__construct()
+#1 {main}
+
+Log Time: 04-11-2017 11:21:00am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:21:01am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:21:04am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:12am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:20am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:21am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:23am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:23am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 11:26:23am
+Error: Using $this when not in object context in C:\xampp\htdocs\billing_DB\src\billpayment\Charge.php:20
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(64): Operation\Charge::getCharge()
+#1 {main}
+
+Log Time: 04-11-2017 13:07:17pm
+Error: Class 'Charge' not found in C:\xampp\htdocs\billing_DB\src\billpayment\billpayment.php:59
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(59): Operation\BillPayment->pay(NULL)
+#1 {main}
+
+Log Time: 04-11-2017 13:09:07pm
+Error: Class 'Charge' not found in C:\xampp\htdocs\billing_DB\src\billpayment\billpayment.php:59
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(59): Operation\BillPayment->pay(NULL)
+#1 {main}
+
+Log Time: 04-11-2017 13:14:40pm
+Error: Class 'Charge' not found in C:\xampp\htdocs\billing_DB\src\billpayment\billpayment.php:59
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(59): Operation\BillPayment->pay(NULL)
+#1 {main}
+
+Log Time: 04-11-2017 13:20:23pm
+Error: Class 'Charge' not found in C:\xampp\htdocs\billing_DB\src\billpayment\billpayment.php:59
+Stack trace:
+#0 C:\xampp\htdocs\billing_DB\src\controller.php(59): Operation\BillPayment->pay(NULL)
+#1 {main}
+
