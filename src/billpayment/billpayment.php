@@ -92,7 +92,7 @@ class BillPayment
 						$result->accountBalance = $account['accBalance'];
 						
 						
-						DBConnection::restore();
+						//DBConnection::restore();
 					}
 					
 					
